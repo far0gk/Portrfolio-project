@@ -1,0 +1,145 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>My Coding Projects</title>  
+  <style>  
+   body {  
+    background-image: radial-gradient(circle, rgb(0, 0, 0), rgba(129, 15, 139, 0.979), rgb(155, 115, 7));  
+    font-family: Arial, sans-serif;  
+   }  
+    
+   ._sectionTitle {  
+    font-weight: 800;  
+    font-size: max(.75em, min(7.5em, 5.3333333333vw));  
+    line-height: 1.175;  
+    padding-block: 3vh;  
+    width: 85%;  
+    text-align: center;  
+   }  
+    
+   ._project {  
+    display: flex;  
+    flex-direction: row;  
+    align-items: center;  
+    justify-content: space-between;  
+    margin-bottom: 2rem;  
+   }  
+    
+   ._projectImage {  
+    width: 80%;  
+    aspect-ratio: 16 / 10;  
+    border: 3.2px solid;  
+    border-image: linear-gradient(to bottom right, #a587e3, #3e188c, #f79222) 1;  
+    border-radius: 4px;  
+    transition: .8s cubic-bezier(.13,.53,.38,.97);  
+   }  
+    
+   ._projectRightContainer {  
+    width: 60%;  
+    padding-left: 2rem;  
+   }  
+    
+   ._projectTitle {  
+    font-size: max(.2em, min(2em, 5.3333333333vw));  
+    font-weight: 800;  
+   }  
+    
+   ._projectText {  
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} 
+    
+   ._projectLinkContainer {  
+    position: relative;  
+   }  
+    
+   ._projectLinkContainer::after {  
+    content: "";  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 0;  
+    height: 100%;  
+    background-color: #a587e3;  
+    transition: width 0.5s ease-in-out;  
+   }  
+    
+   ._projectLinkContainer:hover::after {  
+    width: 100%;  
+   }  
+   .p1 {  
+  background-color: transparent;  
+  background-repeat: no-repeat;  
+  border: none;  
+  cursor: pointer;  
+  overflow: hidden;  
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  width: 90px;  
+  height: 60px;  
+  border-radius: 1rem;  
+  transition: all 0.5s ease-in-out;  
+}  
+  
+.p1:hover {  
+  background-color: black;  
+  border: 3px solid #7a288a;  
+  box-shadow: 0 0 10px #7a288a;  
+}
+  </style>  
+</head>  
+<body>  
+  <h2 class="_sectionTitle">My Coding Projects</h2>  
+  <div class="_project">  
+   <div class="_projectLeftContainer">  
+    <img src="./Screenshot 2024-12-11 083827.png" alt="Another Solora Project Screenshot" class="_projectImage">
+   </div>  
+   <div class="_projectRightContainer">  
+    <h3 class="_projectTitle">#1</h3>  
+    <p class="_projectText">Though simple, this HTML code creates a stylized representation of the flag of Laos. 
+        The code demonstrates my ability to use CSS positioning and styling to create a visually appealing and accurate representation of a complex design. 
+        The flag is composed of a red background with a blue stripe in the middle, and a white circle in the center of the blue stripe, containing the text "of Laos". 
+        The use of absolute positioning and nested div elements allows for precise control over the layout and sizing of the flag's components. 
+        This project showcases my attention to detail, understanding of CSS layout and styling, and ability to translate a design concept into functional code.</p>  
+    <a href="https://solora.no" target="_blank" class="_projectLinkContainer">  
+      <button class="p1"><span class="_projectLink"> <a href="https://github.com/far0gk/Flag-Project.git">GitHub</a></span>  
+      </a> 
+    </a>  
+   </div>  
+  </div>  
+  <div class="_project">  
+    <div class="_projectLeftContainer">  
+     <img src="./Screenshot_11-12-2024_103012_127.0.0.1.jpeg" alt="Another Solora Project Screenshot" class="_projectImage">
+    </div>  
+    <div class="_projectRightContainer">  
+     <h3 class="_projectTitle">#2</h3>  
+     <p class="_projectText">I created this HTML and CSS code to demonstrate a responsive grid system using Bootstrap, showcasing various column layouts and breakpoint configurations. 
+        The code exemplifies my ability to work with a popular front-end framework, utilizing its grid system to create adaptable and mobile-friendly interfaces.
+         By employing different column classes (e.g., col, col-4, col-lg-4) and combining them with breakpoint-specific classes (e.g., col-sm-2), I effectively create a range of layouts that adjust to different screen sizes and devices. 
+         This project highlights my understanding of responsive design principles, CSS frameworks, and my ability to write clean, efficient, and adaptable code.</p>  
+     <button class="p1"><span class="_projectLink"> <a href="https://github.com/far0gk/Bootstrap.git">GitHub</a></span>  
+       </a> 
+     </a>  
+    </div>  
+   </div>  
+   <div class="_project">  
+    <div class="_projectLeftContainer">  
+     <img src="./Screen Shot 2024-12-11 at 9.29.55 PM.png" alt="Another Solora Project Screenshot" class="_projectImage">
+    </div>  
+    <div class="_projectRightContainer">  
+     <h3 class="_projectTitle">#3</h3>  
+     <p class="_projectText">I designed and developed a visually appealing and interactive menu system using HTML, CSS, and JavaScript. The project showcases a responsive and user-friendly interface, featuring a menu with various categories and sub-items. The HTML structure is well-organized, with a clear separation of content and presentation, while the CSS styles enhance the visual appeal with a dark background, bold typography, and subtle animations. The JavaScript code adds an extra layer of interactivity, dynamically applying animation delays to each menu item to create a smooth and engaging user experience. This project demonstrates my proficiency in front-end development, including my ability to write clean and efficient code, utilize CSS animations, and manipulate the DOM using JavaScript. The result is a modern and engaging menu system that is both functional and aesthetically pleasing.</p>  
+     <button class="p1"><span class="_projectLink"> <a href="https://github.com/far0gk/Menu-project.git">GitHub</a></span>  
+       </a> 
+     </a>  
+    </div>  
+   </div>  
+</body>  
+</html>
